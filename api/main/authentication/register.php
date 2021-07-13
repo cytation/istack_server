@@ -1,8 +1,8 @@
 <?php
-    include '../config/database.php';
-    include '../config/apiauth.php';
-    include '../config/request.php';
-    include '../operation_classes/auth.php';
+    include '../../config/database.php';
+    include '../../config/apiauth.php';
+    include '../../config/request.php';
+    include '../../operation_classes/auth.php';
     
     $api = new Api();
     if($api->notAuthorized()){
